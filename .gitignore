@@ -1,0 +1,7 @@
+# Source/original files kept locally; the site uses the converted copies
+images/*.pdf
+images/CASE2022/
+images/my.png
+images/AD/*.jpeg
+images/AD/*.jpg
+images/AD/*.HEIC
