@@ -884,3 +884,25 @@ body.dark .job-banner a {
 body.dark .job-banner a:hover {
   color: #fca5a5 !important;
 }
+
+/* Open-to-work line under the bio */
+.open-banner {
+  margin: 14px 0 4px;
+  padding: 8px 14px;
+  border-left: 4px solid #f09228;
+  border-radius: 6px;
+  background-color: #fff4e5;
+  color: #7a4a00;
+  font-size: 15px;
+}
+
+.open-banner a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body.dark .open-banner {
+  background-color: #3a2a12;
+  color: #f6c98a;
+  border-left-color: #f0a848;
+}

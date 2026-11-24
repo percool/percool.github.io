@@ -42,6 +42,10 @@
           Dr. Yogesh Gianchandani and Dr. Tao Li. -->
         </p>
 
+        <p class="open-banner">
+          🚀 <strong>Open to full-time and internship opportunities</strong> &mdash; feel free to <a href="mailto:fengzh_g@tamu.edu">get in touch</a>!
+        </p>
+
         <!-- Uncomment to show a job-market banner.
         <div class="job-banner">
           🚀 <strong>On the 2027 Job Market:</strong> Looking for research scientist roles in world models and 3D/4D vision. Please <a href="mailto:fengzh_g@tamu.edu">get in touch</a>!
@@ -74,16 +78,27 @@
     <!-- Research -->
     <div class="section">
       <h2 class="section-heading">Research</h2>
-      <p>
+      <!-- <p>
         My research focuses on computer vision, including dynamic world understanding, reconstruction, and
         prediction. Specifically, I aim to build visual intelligence through
         spatio-temporal generation. My recent work includes uncertainty-aware dynamic Gaussian
         Splatting for 4D reconstruction and 3D tracking, feedforward scene reconstruction, 4D skeleton generation
         from meshes or videos via flow matching, and geometry-grounded world models.
+      </p> -->
+      <p>
+        My research focuses on computer vision, including dynamic world understanding, reconstruction, and prediction. 
+        Specifically, I aim to build visual intelligence through spatio-temporal generation and agentic AI. 
+        My recent work includes geometry-grounded multimodal world models, LLM-agent-driven long-horizon 4D reconstruction of multi-object hand interactions, feed-forward 4D skeleton generation and 4D hand-object reconstruction via flow matching, and uncertainty-aware dynamic Gaussian Splatting for 4D reconstruction and 3D tracking.
+        I also have expertise in robotics, with a focus on hardware and software system design, active perception, and pre-touch sensing for robotic grasping.
       </p>
 
       <h3 class="subsection-heading">Research Projects</h3>
       <ul class="research-list">
+        <li>
+          <strong>Agentic AI for 4D Reconstruction:</strong> Building LLM agents that reason over minutes-long
+          video and orchestrate vision foundation models as tools, turning long-horizon hand-object
+          interactions into verifiable event scripts that drive template-free 4D reconstruction.
+        </li>
         <li>
           <strong>Video Generation &amp; World Models:</strong> Building geometry-grounded world models and video
           diffusion models that generate spatially consistent, long-horizon futures and arbitrary novel views of
@@ -94,10 +109,10 @@
           structure from monocular or multi-view video with uncertainty-aware dynamic Gaussian Splatting and
           feedforward reconstruction models, enabling high-quality rendering at extreme viewpoints.
         </li>
-        <li>
+        <!-- <li>
           <strong>Perception for Robotic Grasping:</strong> Fusing cameras with fingertip pretouch sensors for
           active perception, transparent object reconstruction, and material and structure mapping before contact.
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -131,7 +146,8 @@
             <div class="authors"><strong>Fengzhi Guo</strong>, Nate Morrill, Shiqi Li, Cheng Zhang</div>
             <div class="venue"><em>Under Review</em>, 2026</div>
             <div class="pub-links">
-              <a href="https://tamu-visual-ai.github.io/FlowRig/">project page</a>
+              <a href="https://tamu-visual-ai.github.io/FlowRig/">Project Page</a> &nbsp;/&nbsp;
+              <a href="https://arxiv.org/abs/2611.03775v2">Arxiv</a>
             </div>
             <p>A unified flow-matching framework for skeleton generation on 3D and 4D meshes, with uncertainty and graph heads that predict per-bone quality and connectivity, plus feedforward skinning-weight prediction.</p>
           </div>
@@ -149,8 +165,8 @@
             <div class="authors">Shiqi Li, Sean Cho, Yijie Li, <strong>Fengzhi Guo</strong>, Bowen Wen, Cheng Zhang</div>
             <div class="venue"><em>Under Review</em>, 2026</div>
             <div class="pub-links">
-              <a href="https://tamu-visual-ai.github.io/4D-HOF/">project page</a> &nbsp;/&nbsp;
-              <a href="https://arxiv.org/abs/2610.08782">arxiv</a>
+              <a href="https://tamu-visual-ai.github.io/4D-HOF/">Project Page</a> &nbsp;/&nbsp;
+              <a href="https://arxiv.org/abs/2610.08782">Arxiv</a>
             </div>
             <p>A feed-forward conditional flow-matching model that refines foundation-model hand-object estimates into accurate 4D interactions, with test-time guidance from physical constraints and 2D evidence.</p>
           </div>
@@ -168,9 +184,9 @@
             <div class="authors"><strong>Fengzhi Guo</strong>, Chih-Chuan Hsu, Sihao Ding, Cheng Zhang</div>
             <div class="venue"><em>ICLR</em>, 2026</div>
             <div class="pub-links">
-              <a href="https://tamu-visual-ai.github.io/usplat4d/">project page</a> &nbsp;/&nbsp;
-              <a href="https://arxiv.org/abs/2510.12768">arxiv</a> &nbsp;/&nbsp;
-              <a href="https://github.com/TAMU-Visual-AI/usplat4d">code</a> &nbsp;/&nbsp;
+              <a href="https://tamu-visual-ai.github.io/usplat4d/">Project Page</a> &nbsp;/&nbsp;
+              <a href="https://arxiv.org/abs/2510.12768">Arxiv</a> &nbsp;/&nbsp;
+              <a href="https://github.com/TAMU-Visual-AI/usplat4d">Github</a> &nbsp;/&nbsp;
               <a href="https://openreview.net/forum?id=m3rZ7Fdlst">OpenReview</a>
             </div>
             <p>Closed-form uncertainty estimates for dynamic Gaussians build uncertainty-aware spatio-temporal graphs, giving more stable geometry under severe occlusion and high-quality synthesis at extreme viewpoints.</p>
@@ -189,7 +205,7 @@
             <div class="authors"><strong>Fengzhi Guo</strong>, Shuangyu Xie, Di Wang, Cheng Fang, Jun Zou, Dezhen Song</div>
             <div class="venue"><em>ICRA</em>, 2025</div>
             <div class="pub-links">
-              <a href="https://par.nsf.gov/servlets/purl/10580169">pdf</a> &nbsp;/&nbsp;
+              <a href="https://par.nsf.gov/servlets/purl/10580169">Paper</a> &nbsp;/&nbsp;
               <a href="https://ieeexplore.ieee.org/document/11128748">IEEE</a>
             </div>
             <p>Fuses a camera with the PDM<sup>2</sup> pretouch sensor through distributed Gaussian-process shape reconstruction and information-gain-driven active scan planning, raising the average IoU on transparent household objects from 0.73 to 0.96.</p>
@@ -215,7 +231,7 @@
               <div class="authors">Cheng Fang, Zhiyu Yan, <strong>Fengzhi Guo</strong>, Shuangliang Li, Dezhen Song, Jun Zou</div>
               <div class="venue"><em>ICRA</em>, 2025</div>
               <div class="pub-links">
-                <a href="https://par.nsf.gov/servlets/purl/10580168">pdf</a> &nbsp;/&nbsp;
+                <a href="https://par.nsf.gov/servlets/purl/10580168">Paper</a> &nbsp;/&nbsp;
                 <a href="https://doi.org/10.1109/ICRA55743.2025.11127586">IEEE</a>
               </div>
               <p>A fiber-tip optical ultrasound receiver makes the pretouch sensor smaller and immune to electromagnetic interference while keeping its ranging and material/structure sensing performance.</p>
@@ -270,7 +286,7 @@
               <div class="authors">Di Wang*, <strong>Fengzhi Guo*</strong>, Cheng Fang, Jun Zou, Dezhen Song &nbsp;(*co-first author)</div>
               <div class="venue"><em>CASE</em>, 2022</div>
               <div class="pub-links">
-                <a href="https://par.nsf.gov/servlets/purl/10386371">pdf</a> &nbsp;/&nbsp;
+                <a href="https://par.nsf.gov/servlets/purl/10386371">Paper</a> &nbsp;/&nbsp;
                 <a href="https://doi.org/10.1109/CASE49997.2022.9926523">IEEE</a>
               </div>
               <p>An automatic object scanning system, built by refitting a 3D printer with a motorized turntable, plus a calibration method for the fingertip DMDSM sensor and scanner.</p>
